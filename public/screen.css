@@ -53,16 +53,31 @@ div .flex-this {
 }
 
 aside {
-  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 210px;
+  border: 1px solid rgb(73, 161, 177);
+  margin: 0 3rem;
 }
 
 aside img {
   height: 200px;
   width: 200px;
+  padding: 5px;
 }
 
 aside span {
   font-size: .5rem;
+}
+
+aside ul {
+  padding-bottom: 2rem;
+}
+
+aside ul li {
+  padding-right: 5rem;
+  padding-top: 5px;
 }
 
 main {
