@@ -51,3 +51,19 @@ aside {
 main {
   width: 75%;
 }
+
+footer {
+  background-color: rgb(221, 221, 221);
+}
+
+footer ul {
+  text-align: center;
+  padding: .5rem 0;
+}
+
+footer li {
+  display: inline;
+  color: black;
+  text-decoration: underline;
+  margin: .25rem 1rem;
+}
