@@ -39,3 +39,15 @@ nav li {
   text-decoration: underline;
   margin: .25rem 1rem;
 }
+
+div .flex-this {
+  display: flex;
+}
+
+aside {
+  width: 25%;
+}
+
+main {
+  width: 75%;
+}
